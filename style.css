@@ -37,3 +37,8 @@ a:link, a:visited, a:active {
     border: 1px solid black;
 }
 
+/* Acá controlamos el tamaño de las imagenes de gatitos */
+
+img{
+    width: 300px;
+}
