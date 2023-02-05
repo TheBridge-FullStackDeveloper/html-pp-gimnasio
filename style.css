@@ -1,7 +1,7 @@
 /* Dandole un poco de vida a la tabla */
 table{
-    width: 100%;
-    border-collapse: collapse;
+    width            : 100%;
+    border-collapse  : collapse;
 
 }
 
@@ -10,35 +10,50 @@ table th{
 }
 
 table, th, td {
-    border: 1px solid black;
-    text-align: left;
+    border          : 1px solid black;
+    text-align      : left;
 
 }
 
 th, td{
-    padding: 8px;
-    width: 150px;
+    padding         : 8px;
+    width           : 150px;
 }
 
 /* Aqui controlo que no muestre la linea fea del hipervinculo xD */
 a:link, a:visited, a:active {
-    text-decoration:none;
+    text-decoration :none;
 }
 
 /* Se añade una clase BOTON para navegar entre index y gatitos */
 .boton {
-    height: 90px;
-    width: 300px;
-    background-color: #D8D8D8;
-    color: black;
-    border-radius: 20px;
-    padding: 10px;
-    box-shadow: 0px 3px 12px -3px black;
-    border: 1px solid black;
+    height           : 90px;
+    width            : 300px;
+    background-color : #D8D8D8;
+    color            : black;
+    border-radius    : 20px;
+    padding          : 10px;
+    box-shadow       : 0px 3px 12px -3px black;
+    border           : 1px solid black;
 }
 
 /* Acá controlamos el tamaño de las imagenes de gatitos */
 
 img{
-    width: 300px;
+    width           : 300px;
+}
+
+nav ul{
+    padding         : 8px;
+    margin          : 0;
+    list-style      : none;
+}
+
+nav ul li{
+    display         : inline-block;
+}
+
+nav ul li a{
+    text-decoration : none;
+    color           : #000099;
 }
