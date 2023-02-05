@@ -1,8 +1,13 @@
+body{
+    margin-bottom: 20px;
+    /* padding: 10px; */
+}
+
+
 /* Dandole un poco de vida a la tabla */
 table{
     width            : 100%;
     border-collapse  : collapse;
-
 }
 
 table th{
@@ -43,6 +48,7 @@ img{
     width           : 300px;
 }
 
+/* Este es el panel de navegación entre las secciones */
 nav ul{
     padding         : 8px;
     margin          : 0;
