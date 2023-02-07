@@ -1,0 +1,16 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+table th{
+    background-color: aliceblue;
+}
+table, th, td{
+   border: 2px solid;
+   text-align: left;
+}
+th,td{
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+}
