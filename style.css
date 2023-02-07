@@ -1,0 +1,22 @@
+table {
+    font-family: letter 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    
+  }
+  
+  td, th {
+    border: 1.5px solid black;
+    text-align: left;
+    padding: 8px;
+    width: 150px;
+    
+    
+  }
+  
+  th {
+    background-color: whitesmoke;
+  }
+
+ .junto {
+   line-height: 175%;
+ }
