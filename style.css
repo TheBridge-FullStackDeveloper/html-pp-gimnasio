@@ -1,0 +1,128 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse 1400px;
+         
+}
+th {
+text-align: left;
+background-color: rgb(146, 142, 142);
+}
+.contenedor-tabla {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 15%;
+}
+
+h1 {
+ text-align: center;
+}
+p {
+ text-align: center;
+}
+td {
+ background-color: cornsilk;
+}
+body {
+    font-family: 'roboto', Times, serif;
+    margin: 0;
+    background-color: rgb(91, 75, 75);
+}
+h2 {
+    font-size: 4em;
+    color: rgb(145, 166, 54);
+    text-align: center;
+}
+p {
+    font-size: 1em;
+    color: white;
+}
+button {
+    font-size: 1,5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+    color: rgb(221, 216, 47);
+    background-color: rgb(52, 37, 11);
+    text-decoration: none;
+
+}
+
+button:hover {
+    background-color: rgb(197, 226, 14);
+    
+}
+.contenedor {
+    max-width: 1400px;
+    margin: auto;
+}
+header {
+    background-color: rgba(62, 78, 46, 0.772);
+}
+.enlaces p {
+    font-size: 4.5em;
+    text-align: center;
+}
+header nav {
+    text-align: center;
+    
+}
+header a {
+    padding: 5px 30px;
+    font-weight: bold;
+    color: yellow;
+    text-decoration: none;
+}
+#video-gato {
+    text-align: center;
+
+}
+#gato-uno {
+    text-align: center;
+    
+}
+
+#gato-dos {
+    text-align: center;
+    padding: 5px 10px;
+}
+.contenedor-dos p {
+padding: 15px;
+}
+img {
+    width: 1000px;
+    border-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.495);
+    
+}
+
+.contenedor-tres {
+    text-align: center;
+    
+}
+.contenedor-cuatro {
+    text-align: center;
+}
+audio {
+    padding: 10px;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.635);
+    border-radius: 15px;
+
+}
+audio:hover {
+    background-color: cadetblue;
+}
+footer a {
+    text-decoration: none;
+    color: yellow;
+    
+}
+.contenedor-tres p {
+    padding: 15px;
+}
+.contenedor-cuatro p {
+    padding: 20px;
+}
