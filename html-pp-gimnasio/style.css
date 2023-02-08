@@ -1,0 +1,14 @@
+* {
+font-family: 'Times New Roman', Times, serif
+
+}
+
+th{
+   background-color:#f2f3f4;
+   color:black;
+   text-align: left;
+}
+
+#January{
+    text-align: right;
+}
