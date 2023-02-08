@@ -1,0 +1,46 @@
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: serif;
+    margin: auto;
+
+}
+
+th,
+td {
+    padding: 5px
+}
+
+.bgcolorcats {
+    background-color: aquamarine;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+.link{
+    text-align: center;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
